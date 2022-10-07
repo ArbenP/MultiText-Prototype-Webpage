@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+    background-image: url(/Images/multex2.png);
+
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+  }
+
+  .top-header {
+    /* background-color: white // Removed background color to give it a transparent look*/
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+  }
+
+  .top-header a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .navbar-logo {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 200px;
+    max-width: 200px;
+    float: left;
+    padding: 20px 16px;
+  }
+
+  .title {
+    font-size: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+
+  .title-div{
+    padding-top: 175px;
+    padding-left: 575px;
+  }
+
+  .description {
+    font-size: 30x;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+
+  .description-div{
+    padding-top: 0px;
+    padding-left: 490px;
+  }
+
+  .join-multitext {
+    background-color: rgb(7, 113, 179);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    transition: background-color 0.15s,
+     color 0.15s;
+  }
+
+  .join-multitext:hover {
+    background-color: rgb(7, 94, 148);
+    color: white;
+  }
+
+  .join-multitext:active {
+    opacity: 0.7;
+  
+  }
+
+  .multitext-button-div {
+    padding-top: 20px;
+    padding-left: 680px;
+  }
+
+ /* .title-div, .description-div, .multitext-button-div {
+    text-align: center;
+  }/*
