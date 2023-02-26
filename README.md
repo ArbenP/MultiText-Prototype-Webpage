@@ -1,2 +1,5 @@
-Things to do with this:
-Make the css in a external styles.css file instead of internal css
+**Things to do**
+
+ - Remake the whole thing
+ - good luck
+
